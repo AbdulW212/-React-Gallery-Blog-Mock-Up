@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+  border: solid black;
+  height: 500vh;
+  margin: 2em;
+  display: block;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.page1{
+  border: solid purple;
+  margin: 2em;
+  height: 155vh;
+  
+}
+.page2{
+  border: solid gold;
+  margin: 2em;
+  height: 115vh;
+}
+
+.header{
+  display: block;
+  border: solid green;
+  height: ;
+}
+
+.firstHeader{
+  border: solid brown;
+  margin-right: 100%;
+  margin-top: 1px;
+  width: 25%;
+  font-size: 35px;
+  color: red;
+
+}
+.secondHeader{
+  border: solid blue;
+  margin-right: 70%;
+  font-size: 17px;
+  width: 25%;
+}
+
+
+.nav{
+  border:solid salmon;
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+}
+
+.date{
+  border: solid yellow;
+  height: 20px;
+  margin-top: 25px;
+  margin-right: 80%;
+  color: grey;
+}
+
+.TP{
+  border: solid green;
+  height: 77.5vh;
+  width: 99%;
+}
+
+.TAdjust{
+border: solid olivedrab;
+margin-right: 75%;
+}
+
+.IMGAdjust{
+border: solid red;
+height: 250px;
+height: 55vh;
+width: 99%;
+
+}
+
+.article{
+  border: solid blueviolet;
+}
